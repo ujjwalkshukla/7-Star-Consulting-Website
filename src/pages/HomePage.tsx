@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -21,18 +20,18 @@ import {
 const HomePage = () => {
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-7star-dark-purple to-7star-secondary-purple min-h-[90vh] flex items-center">
+      {/* Hero Section - Updated with light blue background */}
+      <section className="relative bg-[#D3E4FD] min-h-[90vh] flex items-center">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1531297484001-80022131f5a1')] bg-cover bg-center opacity-10"></div>
         </div>
         <div className="container-custom relative z-10 py-20 md:py-32">
           <div className="max-w-3xl">
-            <h1 className="text-white mb-6 animate-fade-in">
+            <h1 className="text-7star-dark-purple mb-6 animate-fade-in">
               Future-Proof Your 
               <span className="text-7star-purple"> Data Strategy</span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/80 mb-8 animate-slide-in-bottom" style={{ animationDelay: '0.2s' }}>
+            <p className="text-xl md:text-2xl text-7star-dark-purple/80 mb-8 animate-slide-in-bottom" style={{ animationDelay: '0.2s' }}>
               7 Star Consulting delivers enterprise-grade data solutions that transform raw data into boardroom insights.
             </p>
             
@@ -40,26 +39,26 @@ const HomePage = () => {
               <Button asChild size="lg">
                 <Link to="/contact">Book a Free Consultation</Link>
               </Button>
-              <Button asChild variant="outline" className="border-white/30 text-white hover:bg-white/10">
+              <Button asChild variant="outline" className="border-7star-dark-purple/30 text-7star-dark-purple hover:bg-7star-dark-purple/10">
                 <Link to="/solutions">Explore Our Solutions</Link>
               </Button>
             </div>
             
             <div className="mt-12 md:mt-16 animate-slide-in-bottom" style={{ animationDelay: '0.6s' }}>
-              <p className="text-white/70 mb-4 text-sm">Trusted by industry leaders</p>
+              <p className="text-7star-dark-purple/70 mb-4 text-sm">Trusted by industry leaders</p>
               <div className="flex flex-wrap gap-8 items-center">
                 {/* Placeholder for client logos */}
-                <div className="bg-white/10 px-4 py-3 rounded-md">
-                  <span className="text-white/80 font-medium">ACME Health</span>
+                <div className="bg-7star-dark-purple/10 px-4 py-3 rounded-md">
+                  <span className="text-7star-dark-purple/80 font-medium">ACME Health</span>
                 </div>
-                <div className="bg-white/10 px-4 py-3 rounded-md">
-                  <span className="text-white/80 font-medium">RetailPro</span>
+                <div className="bg-7star-dark-purple/10 px-4 py-3 rounded-md">
+                  <span className="text-7star-dark-purple/80 font-medium">RetailPro</span>
                 </div>
-                <div className="bg-white/10 px-4 py-3 rounded-md">
-                  <span className="text-white/80 font-medium">FinTech Global</span>
+                <div className="bg-7star-dark-purple/10 px-4 py-3 rounded-md">
+                  <span className="text-7star-dark-purple/80 font-medium">FinTech Global</span>
                 </div>
-                <div className="bg-white/10 px-4 py-3 rounded-md">
-                  <span className="text-white/80 font-medium">TravelSphere</span>
+                <div className="bg-7star-dark-purple/10 px-4 py-3 rounded-md">
+                  <span className="text-7star-dark-purple/80 font-medium">TravelSphere</span>
                 </div>
               </div>
             </div>
@@ -103,8 +102,7 @@ const HomePage = () => {
                 "ETL/ELT pipeline creation",
                 "Data warehouse architecture"
               ]}
-              className="animate-slide-in-bottom"
-              style={{ animationDelay: '0.2s' }}
+              className="animate-slide-in-bottom delay-200"
             />
             
             <SolutionCard
@@ -118,8 +116,7 @@ const HomePage = () => {
                 "Natural language processing",
                 "AI strategy consulting"
               ]}
-              className="animate-slide-in-bottom"
-              style={{ animationDelay: '0.4s' }}
+              className="animate-slide-in-bottom delay-400"
             />
           </div>
           
@@ -408,8 +405,7 @@ const HomePage = () => {
               author="Michael Chen"
               role="VP of Technology"
               company="Global Retail Corp"
-              className="animate-slide-in-bottom"
-              style={{ animationDelay: '0.2s' }}
+              className="animate-slide-in-bottom delay-200"
             />
             
             <TestimonialCard
@@ -417,8 +413,7 @@ const HomePage = () => {
               author="James Wilson"
               role="Head of Data"
               company="FinBank International"
-              className="animate-slide-in-bottom"
-              style={{ animationDelay: '0.4s' }}
+              className="animate-slide-in-bottom delay-400"
             />
           </div>
         </div>
