@@ -14,6 +14,17 @@ import ContactPage from "./pages/ContactPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
+// Main Solution pages
+import BusinessIntelligencePage from "./pages/solutions/BusinessIntelligencePage";
+import DataMigrationPage from "./pages/solutions/DataMigrationPage";
+import GenAIPage from "./pages/solutions/GenAIPage";
+
+// Main Industry pages
+import HealthcarePage from "./pages/industries/HealthcarePage";
+import RetailPage from "./pages/industries/RetailPage";
+import FinancePage from "./pages/industries/FinancePage";
+import TravelHospitalityPage from "./pages/industries/TravelHospitalityPage";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -27,8 +38,20 @@ const App = () => (
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            
+            {/* Solutions routes */}
             <Route path="/solutions" element={<SolutionsPage />} />
+            <Route path="/solutions/business-intelligence" element={<BusinessIntelligencePage />} />
+            <Route path="/solutions/data-migration" element={<DataMigrationPage />} />
+            <Route path="/solutions/genai" element={<GenAIPage />} />
+            
+            {/* Industries routes */}
             <Route path="/industries" element={<IndustriesPage />} />
+            <Route path="/industries/healthcare" element={<HealthcarePage />} />
+            <Route path="/industries/retail" element={<RetailPage />} />
+            <Route path="/industries/finance" element={<FinancePage />} />
+            <Route path="/industries/travel-hospitality" element={<TravelHospitalityPage />} />
+            
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/resources" element={<ResourcesPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
