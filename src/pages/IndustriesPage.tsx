@@ -141,6 +141,13 @@ const IndustriesPage = () => {
                           We helped a leading hospital network increase patient satisfaction by 42% while 
                           reducing readmission rates through predictive analytics.
                         </p>
+                        <div className="mb-4 rounded-md overflow-hidden">
+                          <img 
+                            src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&q=80&w=2000"
+                            alt="Healthcare data analytics"
+                            className="w-full h-48 object-cover"
+                          />
+                        </div>
                         <Link to="/resources" className="text-7star-purple font-medium inline-flex items-center">
                           Read Case Study <ChevronRight size={16} className="ml-1" />
                         </Link>
@@ -233,6 +240,13 @@ const IndustriesPage = () => {
                           We implemented a predictive inventory management system that reduced stockouts by 35% 
                           and increased overall sales by 22%.
                         </p>
+                        <div className="mb-4 rounded-md overflow-hidden">
+                          <img 
+                            src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&q=80&w=2000"
+                            alt="Retail analytics dashboard"
+                            className="w-full h-48 object-cover"
+                          />
+                        </div>
                         <Link to="/resources" className="text-7star-purple font-medium inline-flex items-center">
                           Read Case Study <ChevronRight size={16} className="ml-1" />
                         </Link>
@@ -325,6 +339,13 @@ const IndustriesPage = () => {
                           Our fraud detection system helped a global bank reduce fraudulent transactions by 73% while 
                           decreasing false positives by 42%.
                         </p>
+                        <div className="mb-4 rounded-md overflow-hidden">
+                          <img 
+                            src="https://images.unsplash.com/photo-1565373679390-fbc56df38284?auto=format&fit=crop&q=80&w=2000"
+                            alt="Financial fraud detection system"
+                            className="w-full h-48 object-cover"
+                          />
+                        </div>
                         <Link to="/resources" className="text-7star-purple font-medium inline-flex items-center">
                           Read Case Study <ChevronRight size={16} className="ml-1" />
                         </Link>
@@ -417,6 +438,13 @@ const IndustriesPage = () => {
                           Our dynamic pricing engine helped a luxury hotel chain increase RevPAR by 28% while improving 
                           guest satisfaction scores.
                         </p>
+                        <div className="mb-4 rounded-md overflow-hidden">
+                          <img 
+                            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2000"
+                            alt="Hotel revenue management dashboard"
+                            className="w-full h-48 object-cover"
+                          />
+                        </div>
                         <Link to="/resources" className="text-7star-purple font-medium inline-flex items-center">
                           Read Case Study <ChevronRight size={16} className="ml-1" />
                         </Link>
