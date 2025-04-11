@@ -35,7 +35,7 @@ const Footer = () => {
               Next-generation data consultancy offering Analytics, Engineering, and AI-driven solutions for enterprise clients.
             </p>
             <div className="flex items-center gap-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
+              <a href="https://linkedin.com" target="https://www.linkedin.com/in/ujjwalkumarshukla/" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </a>
