@@ -39,7 +39,7 @@ const App = () => (
       <Sonner />
 
       {/* IMPORTANT: basename fixes routing on GitHub Pages */}
-      <BrowserRouter basename="/7-Star-Consulting-Website">
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
 
         <Navbar />
 
