@@ -2,7 +2,7 @@
 
 ## Project info
 
-**Github Page**: [Website here] (https://ujjwalkshukla.github.io/7-Star-Consulting-Website/)
+**GitHub Page:** [Website here](https://ujjwalkshukla.github.io/7-Star-Consulting-Website/)
 
 **Lovable URL**: https://lovable.dev/projects/d2b0ef24-5127-4144-acc2-a8d05178a8c8
 
