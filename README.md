@@ -1,75 +1,35 @@
-# Welcome to your Lovable project
+# 7-Star Consulting Website
 
-## Project info
+A modern consulting website designed to showcase data, AI, and analytics consulting services. The platform highlights solutions, industry use cases, and resources while providing a professional digital presence for a consulting brand.
 
-**GitHub Page:** [Website here](https://ujjwalkshukla.github.io/7-Star-Consulting-Website/)
+## Live Website
 
-**Lovable URL**: https://seven-star-data-forge.lovable.app
+**GitHub Pages:**  
+https://ujjwalkshukla.github.io/7-Star-Consulting-Website/
 
-## How can I edit this code?
+**Lovable Deployment:**  
+https://seven-star-data-forge.lovable.app
 
-There are several ways of editing your application.
+## Project Overview
 
-**Use Lovable**
+This project demonstrates a responsive consulting website built with a modern frontend stack. The site is structured to present consulting capabilities, industry expertise, and thought leadership content in a clear and professional format.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d2b0ef24-5127-4144-acc2-a8d05178a8c8) and start prompting.
+The website includes dedicated sections for solutions, industries served, resources, and contact, enabling visitors to quickly understand the firm's offerings and value proposition.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+The project is built using modern frontend technologies:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+- React
 - Vite
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- shadcn/ui
 
-## How can I deploy this project?
+## Key Features
 
-Simply open [Lovable](https://lovable.dev/projects/d2b0ef24-5127-4144-acc2-a8d05178a8c8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Professional consulting website layout
+- Responsive design optimized for desktop and mobile
+- Structured pages for solutions, industries, and resources
+- Fast performance using Vite
+- Modern UI components built with Tailwind and shadcn
