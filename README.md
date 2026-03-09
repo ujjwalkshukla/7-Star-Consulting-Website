@@ -12,7 +12,7 @@ https://seven-star-data-forge.lovable.app
 
 ## Project Overview
 
-This project demonstrates a responsive consulting website built with a modern frontend stack. The site is structured to present consulting capabilities, industry expertise, and thought leadership content in a clear and professional format.
+This project demonstrates a responsive consulting website (prototype) built with a modern frontend stack. The site is structured to present consulting capabilities, industry expertise, and thought leadership content in a clear and professional format.
 
 The website includes dedicated sections for solutions, industries served, resources, and contact, enabling visitors to quickly understand the firm's offerings and value proposition.
 
